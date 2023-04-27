@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8"  />
+<meta viewport="device" content="width=device-width, initial-scale=1.0"/>
+<title>Creat Your Account</title>
+<link type="text/css" rel="stylesheet" href="formtablestyle.css" />
+<script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+//function nav1()
+//{
+	//window.open("loginpage.html");
+	//f1.submit();
+	
+//}
+</script>
+</head>
+
+<body>
+
+
+<div class="contaner1">
+ <center><h1> Creat Your Account </h1></center>
+
+
+<form method="post" action="user_detl.php" name="f1" id="f1">
+<table cellspacing="10" cellpadding="10">
+<tr> <td><label><b>Enter Your Mobile Number&nbsp;</b></label></td><td> <input type="text" name="t1" id="t1" placeholder="10 digit" /> </td>
+<td><label><b>Enter Your Email Id &nbsp;</b></label></td><td><input type="email" name="t2" id="t2" placeholder="abc@gmail.com" /></td></tr>
+<tr><td><label><b>Enter Your First Name &nbsp;</b></label></td><td><input type="text" name="t3" id="t3" placeholder="Enter here" /> </td> 
+<td><label><b>Enter Your Last Name &nbsp;</b></label></td><td><input type="text" name="t4" id="t4" placeholder="Enter here" /></td> </tr>
+
+<tr><td><label><b>Your Current location &nbsp;</b></label></td><td><input type="text" name="t5" id="t5" placeholder="Enter here" /></td>
+
+<td><label><b>Enter Your Password &nbsp;</b></label></td><td><input type="password" name="t6" id="t6" placeholder="10 digit max" /></td></tr>
+
+<tr> <td ><input type="submit" class="bt1" name="b1" value="BACK"></td>  <td><input type="submit"  class="bt1" name="b2" id="b2" value="SUBMIT">  </td>  </tr>
+</table> 	
+</form>
+
+ </div>
+<script>
+ /*$(document).ready(function(e) {
+    $("#f1").submit(function(e1){
+		
+	   alert("Heelo");
+	  $.ajax({
+		  
+		   url: "user_detl.php",
+		   type: "POST",
+		   data: $(this).serialize(),
+		   success: function(data)
+		   { if(data.success)
+		      { window.open("Login.html");
+			  }
+		   
+		   },
+		   error: function(){
+	         alert("Error in submittion");
+	  
+		   }
+	  });
+	
+	});
+	
+	
+});
+*/
+
+</script>
+</div>
+</body>
+</html>

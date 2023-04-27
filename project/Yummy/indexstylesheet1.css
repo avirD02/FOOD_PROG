@@ -1,0 +1,22 @@
+@charset "utf-8";
+.b1{
+	cursor:pointer;
+	outline:none;
+	width:20%;
+	margin:12px 12px;
+	padding:5px;
+	border-radius:20px;
+	border-color:#F00;
+	font-size:25px;
+	font-weight:bold;
+	color:#F00;
+	left:55%;
+	
+}
+.b1:hover{
+	color:#FFF;
+	background:#F30
+}
+.s1{
+	
+}
